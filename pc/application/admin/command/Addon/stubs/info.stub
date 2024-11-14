@@ -1,0 +1,7 @@
+name = {%name%}
+title = 插件名称{%name%}
+intro = Ponyedu插件
+author = yourname
+website = https://gitee.com/ponyedu
+version = 1.0.0
+state = 1
