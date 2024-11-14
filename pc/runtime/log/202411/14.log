@@ -12041,3 +12041,2053 @@
 [ info ] [ RUN ] app\admin\controller\exam\Paper->index[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/exam/Paper.php ]
 [ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000013s ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:39+08:00 ] 127.0.0.1 GET localhost/admin.php/exam/paper/test_dialog?ids=1&dialog=1
+[运行时间：0.073985s] [吞吐率：13.52req/s] [内存消耗：471.16kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000474s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001320s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000207s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'exam.paper',
+    2 => 'test_dialog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper?addtabs=1',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1',
+  'dialog' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000279s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\exam\Paper->test_dialog[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/exam/Paper.php ]
+[ info ] [ VIEW ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/view/exam/paper/test_dialog.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+  6 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000025s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:39+08:00 ] 127.0.0.1 GET localhost/assets/css/skins/skin-green.css.map
+[运行时间：0.002036s] [吞吐率：491.14req/s] [内存消耗：54.74kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000227s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000027s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:39+08:00 ] 127.0.0.1 GET localhost/assets/css/backend.css.map
+[运行时间：0.002405s] [吞吐率：415.77req/s] [内存消耗：54.77kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000512s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000022s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:39+08:00 ] 127.0.0.1 GET localhost/assets/css/fastadmin.css.map
+[运行时间：0.002390s] [吞吐率：418.43req/s] [内存消耗：54.81kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000204s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000026s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:39+08:00 ] 127.0.0.1 GET localhost/assets/css/bootstrap.css.map
+[运行时间：0.001378s] [吞吐率：725.66req/s] [内存消耗：54.81kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000009s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000272s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000021s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:39+08:00 ] 127.0.0.1 GET localhost/admin.php/ajax/lang?callback=define&controllername=exam.paper&v=1731579459
+[运行时间：0.009979s] [吞吐率：100.21req/s] [内存消耗：418.03kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000240s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000025s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper/test_dialog?ids=1&dialog=1',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"macOS"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'exam.paper',
+  'v' => '1731579459',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000064s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000055s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/admin.php/exam/paper?ref=addtabs
+[运行时间：0.008837s] [吞吐率：113.16req/s] [内存消耗：395.41kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000690s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000051s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'exam.paper',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper?lang=zh-cn&ref=addtabs',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000080s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000043s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/admin.php/index/index
+[运行时间：0.024226s] [吞吐率：41.28req/s] [内存消耗：482.28kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000250s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000032s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper?lang=zh-cn&ref=addtabs',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000082s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000016s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/admin.php/exam/paper?addtabs=1
+[运行时间：0.013355s] [吞吐率：74.88req/s] [内存消耗：465.02kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000210s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000022s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'exam.paper',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/index/index',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000052s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\exam\Paper->index[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/exam/Paper.php ]
+[ info ] [ VIEW ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/view/exam/paper/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+  6 => 'gradeList',
+  7 => 'subjectList',
+  8 => 'sectionList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000024s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/assets/css/backend.css.map
+[运行时间：0.001497s] [吞吐率：667.99req/s] [内存消耗：54.77kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000262s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000025s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/assets/css/skins/skin-green.css.map
+[运行时间：0.001556s] [吞吐率：642.61req/s] [内存消耗：54.74kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000225s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000020s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/assets/css/bootstrap.css.map
+[运行时间：0.000832s] [吞吐率：1,201.81req/s] [内存消耗：54.82kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000006s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000118s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/assets/css/fastadmin.css.map
+[运行时间：0.001047s] [吞吐率：955.20req/s] [内存消耗：54.81kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000006s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000269s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000016s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/admin.php/dashboard?addtabs=1
+[运行时间：0.033893s] [吞吐率：29.50req/s] [内存消耗：443.19kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000281s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/index/index',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000042s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'total',
+  6 => 'question',
+  7 => 'totaluser',
+  8 => 'totalviews',
+  9 => 'totalorder',
+  10 => 'totalorderamount',
+  11 => 'todayuserlogin',
+  12 => 'todayusersignup',
+  13 => 'todayorder',
+  14 => 'unsettleorder',
+  15 => 'sevendnu',
+  16 => 'sevendau',
+  17 => 'paylist',
+  18 => 'createlist',
+  19 => 'addonversion',
+  20 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000019s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/assets/css/backend.css.map
+[运行时间：0.001507s] [吞吐率：663.55req/s] [内存消耗：54.77kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000202s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000027s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/assets/css/skins/skin-green.css.map
+[运行时间：0.001565s] [吞吐率：638.99req/s] [内存消耗：54.74kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000292s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000022s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/assets/css/fastadmin.css.map
+[运行时间：0.001562s] [吞吐率：640.16req/s] [内存消耗：54.81kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000204s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000027s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/assets/css/bootstrap.css.map
+[运行时间：0.001085s] [吞吐率：921.83req/s] [内存消耗：54.81kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000008s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000203s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/assets/css/bootstrap.css.map
+[运行时间：0.001749s] [吞吐率：571.82req/s] [内存消耗：54.81kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000418s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000033s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/assets/css/backend.css.map
+[运行时间：0.001738s] [吞吐率：575.43req/s] [内存消耗：54.77kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000412s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000033s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/assets/css/fastadmin.css.map
+[运行时间：0.001767s] [吞吐率：565.96req/s] [内存消耗：54.81kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000522s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000023s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/assets/css/skins/skin-green.css.map
+[运行时间：0.001147s] [吞吐率：871.82req/s] [内存消耗：54.74kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000008s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000244s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000020s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/admin.php/ajax/lang?callback=define&controllername=index&v=1731579462
+[运行时间：0.007228s] [吞吐率：138.35req/s] [内存消耗：417.22kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000257s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000024s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/index/index',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"macOS"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1731579462',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000099s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000027s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/admin.php/ajax/lang?callback=define&controllername=exam.paper&v=1731579462
+[运行时间：0.007307s] [吞吐率：136.86req/s] [内存消耗：417.52kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000274s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000032s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper?addtabs=1',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"macOS"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'exam.paper',
+  'v' => '1731579462',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000061s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000016s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:42+08:00 ] 127.0.0.1 GET localhost/admin.php/ajax/lang?callback=define&controllername=dashboard&v=1731579462
+[运行时间：0.007575s] [吞吐率：132.01req/s] [内存消耗：417.48kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000466s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000026s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/dashboard?addtabs=1',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"macOS"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1731579462',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000060s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000023s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:43+08:00 ] 127.0.0.1 GET localhost/admin.php/exam/paper/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1731579462825
+[运行时间：0.013418s] [吞吐率：74.53req/s] [内存消耗：474.38kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000380s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000024s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'exam.paper',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper?addtabs=1',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-mobile' => '?0',
+  'content-type' => 'application/json',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-platform' => '"macOS"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1731579462825',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000056s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\exam\Paper->index[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/exam/Paper.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000029s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:46+08:00 ] 127.0.0.1 GET localhost/admin.php/exam/paper/test_dialog?ids=1&dialog=1
+[运行时间：0.012584s] [吞吐率：79.47req/s] [内存消耗：471.16kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000092s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000294s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000030s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'exam.paper',
+    2 => 'test_dialog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper?addtabs=1',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1',
+  'dialog' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000057s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\exam\Paper->test_dialog[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/exam/Paper.php ]
+[ info ] [ VIEW ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/view/exam/paper/test_dialog.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+  6 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000021s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:46+08:00 ] 127.0.0.1 GET localhost/assets/css/bootstrap.css.map
+[运行时间：0.001786s] [吞吐率：559.91req/s] [内存消耗：54.81kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000309s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:46+08:00 ] 127.0.0.1 GET localhost/assets/css/skins/skin-green.css.map
+[运行时间：0.001832s] [吞吐率：545.85req/s] [内存消耗：54.74kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000186s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000027s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:46+08:00 ] 127.0.0.1 GET localhost/assets/css/fastadmin.css.map
+[运行时间：0.001890s] [吞吐率：529.12req/s] [内存消耗：54.81kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000238s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:46+08:00 ] 127.0.0.1 GET localhost/assets/css/backend.css.map
+[运行时间：0.001202s] [吞吐率：831.87req/s] [内存消耗：54.77kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000007s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000220s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:46+08:00 ] 127.0.0.1 GET localhost/admin.php/ajax/lang?callback=define&controllername=exam.paper&v=1731579466
+[运行时间：0.006750s] [吞吐率：148.15req/s] [内存消耗：418.03kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000274s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000031s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper/test_dialog?ids=1&dialog=1',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"macOS"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'exam.paper',
+  'v' => '1731579466',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000059s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000032s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:50+08:00 ] 127.0.0.1 POST localhost/admin.php/exam/paper/test_dialog?ids=1&dialog=1
+[运行时间：0.021218s] [吞吐率：47.13req/s] [内存消耗：449.89kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000438s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000045s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'exam.paper',
+    2 => 'test_dialog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper/test_dialog?ids=1&dialog=1',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost',
+  'sec-ch-ua-mobile' => '?0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-platform' => '"macOS"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '171',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1',
+  'dialog' => '1',
+  'username' => '',
+  'row' => 
+  array (
+    'name' => '华南小学五年级上第一单元测试A卷3333',
+  ),
+  'phone' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000061s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\exam\Paper->test_dialog[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/exam/Paper.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.010098s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:17:50+08:00 ] 127.0.0.1 GET localhost/admin.php/exam/paper/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1731579462826
+[运行时间：0.012853s] [吞吐率：77.80req/s] [内存消耗：474.38kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000292s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000024s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'exam.paper',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper?addtabs=1',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-mobile' => '?0',
+  'content-type' => 'application/json',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-platform' => '"macOS"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1731579462826',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000056s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\exam\Paper->index[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/exam/Paper.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000019s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:25:32+08:00 ] 127.0.0.1 GET localhost/admin.php/exam/paper?ref=addtabs&lang=zh-cn
+[运行时间：0.081251s] [吞吐率：12.31req/s] [内存消耗：424.24kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000568s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001619s ]
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000080s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'exam.paper',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=en',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper?ref=addtabs',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+  'lang' => 'zh-cn',
+)
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000429s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000041s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:25:32+08:00 ] 127.0.0.1 GET localhost/admin.php/index/index
+[运行时间：0.019566s] [吞吐率：51.11req/s] [内存消耗：512.90kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000218s ]
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=zh-cn',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper?ref=addtabs',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000065s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000012s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:25:32+08:00 ] 127.0.0.1 GET localhost/admin.php/dashboard?addtabs=1
+[运行时间：0.017381s] [吞吐率：57.53req/s] [内存消耗：473.48kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000224s ]
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000020s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=zh-cn',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/index/index',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000079s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'total',
+  6 => 'question',
+  7 => 'totaluser',
+  8 => 'totalviews',
+  9 => 'totalorder',
+  10 => 'totalorderamount',
+  11 => 'todayuserlogin',
+  12 => 'todayusersignup',
+  13 => 'todayorder',
+  14 => 'unsettleorder',
+  15 => 'sevendnu',
+  16 => 'sevendau',
+  17 => 'paylist',
+  18 => 'createlist',
+  19 => 'addonversion',
+  20 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000018s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:25:32+08:00 ] 127.0.0.1 GET localhost/admin.php/ajax/lang?callback=define&controllername=index&v=1731579932
+[运行时间：0.009925s] [吞吐率：100.76req/s] [内存消耗：449.07kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000294s ]
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000024s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=zh-cn',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/index/index',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"macOS"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1731579932',
+)
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000053s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000016s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:25:32+08:00 ] 127.0.0.1 GET localhost/admin.php/ajax/lang?callback=define&controllername=dashboard&v=1731579932
+[运行时间：0.014176s] [吞吐率：70.54req/s] [内存消耗：447.68kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000008s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000195s ]
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=zh-cn',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/dashboard?addtabs=1',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"macOS"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1731579932',
+)
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000042s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000021s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:25:32+08:00 ] 127.0.0.1 GET localhost/admin.php/exam/paper?lang=zh-cn&addtabs=1
+[运行时间：0.013585s] [吞吐率：73.61req/s] [内存消耗：497.35kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000620s ]
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000029s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'exam.paper',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=zh-cn',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper?lang=zh-cn&ref=addtabs',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'lang' => 'zh-cn',
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000085s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn/exam/paper.php
+[ info ] [ RUN ] app\admin\controller\exam\Paper->index[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/exam/Paper.php ]
+[ info ] [ VIEW ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/view/exam/paper/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+  6 => 'gradeList',
+  7 => 'subjectList',
+  8 => 'sectionList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000028s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:25:33+08:00 ] 127.0.0.1 GET localhost/admin.php/ajax/lang?callback=define&controllername=exam.paper&v=1731579932
+[运行时间：0.010798s] [吞吐率：92.61req/s] [内存消耗：448.02kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000810s ]
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000049s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=zh-cn',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper?lang=zh-cn&addtabs=1',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"macOS"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'exam.paper',
+  'v' => '1731579932',
+)
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000115s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn/exam/paper.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000026s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:25:33+08:00 ] 127.0.0.1 GET localhost/admin.php/exam/paper/index?lang=zh-cn&addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1731579933061
+[运行时间：0.012268s] [吞吐率：81.51req/s] [内存消耗：505.87kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000737s ]
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000026s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'exam.paper',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=zh-cn',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper?lang=zh-cn&addtabs=1',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-mobile' => '?0',
+  'content-type' => 'application/json',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-platform' => '"macOS"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'lang' => 'zh-cn',
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1731579933061',
+)
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000077s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn/exam/paper.php
+[ info ] [ RUN ] app\admin\controller\exam\Paper->index[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/exam/Paper.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000021s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-14T18:25:43+08:00 ] 127.0.0.1 GET localhost/admin.php/exam/paper/index?lang=zh-cn&addtabs=1&search=&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1731579933062
+[运行时间：0.024399s] [吞吐率：40.99req/s] [内存消耗：505.90kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000571s ]
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000046s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'exam.paper',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Idea-745d994b=6c733298-78ff-4667-a2bf-6bb1ed2d76c3; PHPSESSID=hekjh3edvsijrv6ivd9e0ut859; keeplogin=1%7C86400%7C1731561580%7C8d6c212da9a8aeb6f3c5b5e6f119021d; uid=3; token=dc126cf0-32e2-4ce6-a5a4-27236c617d98; think_var=zh-cn',
+  'accept-language' => 'zh,en;q=0.9,zh-CN;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/admin.php/exam/paper?lang=zh-cn&addtabs=1',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-mobile' => '?0',
+  'content-type' => 'application/json',
+  'sec-ch-ua' => '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-platform' => '"macOS"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'lang' => 'zh-cn',
+  'addtabs' => '1',
+  'search' => '',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1731579933062',
+)
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000109s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/jiangbo/zeng/php-prj/ponyexam/pc/public/../application/admin/lang/zh-cn/exam/paper.php
+[ info ] [ RUN ] app\admin\controller\exam\Paper->index[ /Users/jiangbo/zeng/php-prj/ponyexam/pc/application/admin/controller/exam/Paper.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000034s ]
+[ info ] [ LOG ] INIT File
